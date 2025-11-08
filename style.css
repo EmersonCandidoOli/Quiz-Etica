@@ -1,0 +1,39 @@
+body {
+  background-color: #000;
+  color: #000;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+
+}
+
+.quiz-container {
+  background-color: #fae901;
+  border-radius: 20px;
+  box-shadow: 0 0 10px #0003;
+  width: 350px;
+  text-align: center;
+  padding: 20px;
+
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #000;
+  color: #ffcc00;
+  font-weight: bold;
+  cursor: pointer;
+
+}
+
+button:hover {
+  background-color: #333;
+
+}
